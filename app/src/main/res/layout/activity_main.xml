@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.greciaguzmn.presentacion_personal.MainActivity">
+
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#d0f7aef0"
+        />
+
+    <ImageView
+        android:id="@+id/foto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/perfil"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/titulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/perfil"
+        android:layout_below="@+id/foto"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        android:textSize="25sp"
+        />
+
+    <TextView
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/nombre"
+        android:layout_below="@+id/titulo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/grecia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/grecia_guzman"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a2281"
+        />
+    <TextView
+        android:id="@+id/edad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edad"
+        android:layout_below="@+id/grecia"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/anio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diecinueve_a_os"
+        android:layout_below="@+id/edad"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a2281"
+        />
+
+    <TextView
+        android:id="@+id/correo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/correo"
+        android:layout_below="@+id/anio"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/micorreo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/greece_ita_gmail_com"
+        android:layout_below="@+id/correo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a2281"
+        />
+
+    <TextView
+        android:id="@+id/residencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/residencia"
+        android:layout_below="@+id/micorreo"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/ticuantepe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ticuantepe"
+        android:layout_below="@+id/residencia"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a2281"
+        />
+
+    <TextView
+        android:id="@+id/actividad"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/actividad_favorita"
+        android:layout_below="@+id/ticuantepe"
+        android:layout_centerHorizontal="true"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/hobby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/leer"
+        android:layout_below="@+id/actividad"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0a2281"
+        />
+
+
+
+</RelativeLayout>
